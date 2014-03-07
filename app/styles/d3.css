@@ -17,4 +17,30 @@ and open the template in the editor.
   color: white;
 }
 
+.chart rect {
+  fill: steelblue;
+}
 
+.bar {
+  fill: steelblue;
+}
+.bar:hover{
+  fill: rgb(175, 69, 69);
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
